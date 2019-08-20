@@ -14,7 +14,7 @@
 					<groupId>org.tektutor</groupId>
 					<artifactId>tektutor-hello-app</artifactId>
 					<version>1.0.0</version>
-					<file>$(project.build.directory)/tektutor-hello-app-1.0.0.jar</file>
+					<file>${project.build.directory}/tektutor-hello-app-1.0.0.jar</file>
 				</configuration>
 			</plugin>
 		</plugins>
