@@ -18,6 +18,18 @@
 					<file>${project.build.directory}/tektutor-hello-app-1.0.0.jar</file>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.7</version>
+				<configuration>
+					<groupId>org.tektutor</groupId>
+					<artifactId>tektutor-hello-app</artifactId>
+					<version>1.0.0</version>
+					<packaging>jar</packaging>
+					<file>${project.build.directory}/tektutor-hello-app-1.0.0.jar</file>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	
