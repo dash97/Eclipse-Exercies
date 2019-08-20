@@ -6,7 +6,7 @@
 	
 	<profiles>
 		<profile>
-			<id>test</id>
+			<name>test</name>
 			<build>
 				<plugins>
 					<plugin>
@@ -27,7 +27,7 @@
 		</profile>
 	
 		<profile>
-			<id>package</id>
+			<name>package</name>
 			<build>
 				<plugins>
 					<plugin>
@@ -71,7 +71,7 @@
 		</profile>
 		
 		<profile>
-			<id>install</id>
+			<name>install</name>
 			<build>
 				<plugins>
 					<plugin>
@@ -127,7 +127,7 @@
 		</profile>
 		
 		<profile>
-			<id>deploy</id>
+			<name>deploy</name>
 			<build>
 				<plugins>
 					<plugin>
